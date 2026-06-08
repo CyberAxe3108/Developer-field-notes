@@ -18,3 +18,17 @@ h2 { margin: 2rem 0 0.75rem; }
 p, li { margin-bottom: 0.5rem; }
 code { background: #f0f0f0; padding: 0.1em 0.3em; border-radius: 3px; }
 footer { margin-top: 3rem; color: #666; font-size: 0.9rem; }
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  code {
+    font-size: 0.85rem;
+  }
+}
